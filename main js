@@ -1,0 +1,22 @@
+
+let light = document.getElementById("light");
+let dark = document.getElementById("dark");
+let green = document.getElementById("green");
+
+light.addEventListener("change", function()
+{
+    document.body.classList.remove("dark");
+    document.body.classList.remove("green");
+});
+
+dark.addEventListener("change", function()
+{
+    document.body.classList.add("dark");
+    document.body.classList.remove("green");
+});
+
+green.addEventListener("change", function()
+{
+    document.body.classList.add("green");
+    document.body.classList.remove("dark");
+});
