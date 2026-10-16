@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-color: white;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header
+{
+    background-color: #ddd;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+.dark
+{
+    background-color: #222;
+    color:white;
+}
+.dark header{
+    background-color: #111;
+}
+.dark nav a{
+    color:white;
+}
+ main{
+    padding: 20px;
+ }
+ .green {
+    background-color: #e8f5e9;
+    color: #1b4332;
+}
+
+.green header {
+    background-color: #a5d6a7;
+}
+
+.green nav a {
+    color: #1b4332;
+}
